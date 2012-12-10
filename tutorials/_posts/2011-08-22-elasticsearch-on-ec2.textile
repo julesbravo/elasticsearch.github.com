@@ -253,14 +253,14 @@ h2. Installation of elasticsearch
 
 <p>
     At the time this was written, the latest release of elasticsearch was
-    0.17.6. Let’s get it onto our elasticsearch instance.
+    0.20.1. Let’s get it onto our elasticsearch instance.
 </p>
 
 <pre>
-    $ wget https://github.com/downloads/elasticsearch/elasticsearch/elasticsearch-0.19.0.zip
-    $ sudo unzip elasticsearch-0.19.0.zip -d /usr/local/elasticsearch
-    $ cd /usr/local/elasticsearch/elasticsearch-0.19.0
-    $ sudo bin/plugin -install elasticsearch/elasticsearch-cloud-aws/1.4.0
+    $ wget https://github.com/downloads/elasticsearch/elasticsearch/elasticsearch-0.20.1.zip
+    $ sudo unzip elasticsearch-0.20.1.zip -d /usr/local/elasticsearch
+    $ cd /usr/local/elasticsearch/elasticsearch-0.20.1
+    $ sudo bin/plugin -install elasticsearch/elasticsearch-cloud-aws/1.10.0
 </pre>
 
 <p>
